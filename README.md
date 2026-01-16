@@ -4,7 +4,7 @@
 ivanoglo@github
 -------------------------
 Location: Ulm, Germany
-Interst: quantum computations, quantum information theory
+Interst: AI revolution, quantum computations, game development
 Languages: C++, Python, C#, C.
 Have experience in programming on Java,
 Kotlin, Haskell, Scala, SQL, Lean ...
