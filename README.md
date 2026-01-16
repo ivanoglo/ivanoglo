@@ -1,7 +1,7 @@
 <img align="left" src="Me2.jpg" width="320" /> 
 
 ```csharp
-StudioShader@github
+ivanoglo@github
 -------------------------
 Location: Ulm, Germany
 Interst: quantum computations, quantum information theory
