@@ -10,4 +10,4 @@ Have experience in programming on Java,
 Kotlin, Haskell, Scala, SQL, Lean ...
 Telegram: @old_Cheech
 ```
-[And here is my latest resume .pdf](CV_research.pdf)
+[And here is my latest resume .pdf](CV_Ivan_Ogloblin.pdf)
