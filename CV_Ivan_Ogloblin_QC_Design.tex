@@ -64,28 +64,33 @@
 	
 	\section{Education}
 	\cventry{}{}{Bachelor of Science in Computer Science and Software Engineering}{Sept 2019 - July 2023}{\hspace*{-2.5 mm} Saint-Petersburg State University}{}
-	\cventry{}{}{Master of Science in Mathematics}{Sept 2022 - November 2025}{\hspace*{-2.5 mm} Pontifical Catholic University of Rio de Janeiro}{}
+	\cventry{}{}{Master of Science in Mathematics}{Sept 2022 - April 2025}{\hspace*{-2.5 mm} Pontifical Catholic University of Rio de Janeiro}{}
 	{}{}
 	
 	\section{Work Experience}
 	
-	\cventry{}{\href{https://wetdreams.io}{\textcolor{cyan!40!blue}{WetDreams}}}{Co-founder and CTO}{September 2025 - current\vspace{0.0em}}{}{
-		Co-founded and lead technical development of \href{https://wetdreams.io}{\textcolor{blue}{WetDreams}}, a Russian platform for AI roleplay that has grown to over 150,000 unique users in less than four months. Architected and built the full-stack application using Next.js, React, TypeScript, PostgreSQL with Drizzle ORM, Redis for caching, Tailwind CSS and Radix UI components, NextAuth for authentication, and AWS S3 for storage. Designed scalable infrastructure using Docker and github CI/CD pipelines supporting high traffic and implemented real-time features for interactive AI conversations.
+	% QC Design — reverse chronological order, bullet list
+	\cventry{}{}{Quantum Software Engineer — QC Design}{August 2024 - current\vspace{-1.0em}}{}{
+		\begin{itemize}
+			\item 5000x faster simulations in Plaquette v2024.8 \href{https://www.qc.design/news/v20248}{\textcolor{blue}{news}} (xpauli backend optimizations).
+			\item Real hardware imperfection support and the \texttt{full\_state} simulator for exact simulations \href{https://www.qc.design/news/v20248}{\textcolor{blue}{news}}.
+			\item Scalable simulation of near-Clifford error-correcting circuits using Clifford decompositions and quasiprobability sampling in v2025.2 \href{https://www.qc.design/news/v2025-2}{\textcolor{blue}{news}}.
+			\item Loss-aware decoding support in v2025.4 to reduce logical error rates using qubit loss information \href{https://www.qc.design/news/v2025-4}{\textcolor{blue}{news}}.
+		\end{itemize}
 	}
-	
-	\cventry{}{\href{https://qc.design}{\textcolor{cyan!40!blue}{QC Design}}}{Quantum Software Engineer}{February 2024 - current\vspace{0.0em}}{}{
-		% Detailed achievements:%
-		%\begin{itemize}
-		I am working in a growing startup QC Design for almost two years. I implemented a modest algorithm for dealing with qubit's possibility of being  \href{https://www.nature.com/articles/s41586-022-05434-1}{\textcolor{blue}{leaked}} from the computational system. I brought a new infrastructure that allowed implementing algorithms in \texttt{C++} and calling them from Python using \texttt{CPython}. I achieved more than a 10000x speedup for simulations of challenging noise models in the circuit. I added support for \href{https://arxiv.org/pdf/2402.09333}{\textcolor{blue}{Bosonic system}}'s noise and \href{https://arxiv.org/abs/2105.04478Clifford}{\textcolor{blue}{Spanning technique}} that allows for the simulation to converge not to an approximation but to a precise value of the Logical Error Rate for any coherent noise. I also worked on the belief-propagation decoders as well as matching decoders, which were challenging to implement efficiently.
+	\cventry{}{}{Consultant — QC Design}{February 2024 - June 2024\vspace{-1.0em}}{}{
+		\begin{itemize}
+			\item Contributed to Plaquette features leading up to v2024.8, assisting with simulator and backend improvements \href{https://www.qc.design/news/v20248}{\textcolor{blue}{news}}.
+		\end{itemize}
 	}
-	%\end{itemize}}
-	\cventry{}{\href{https://www.huawei.com}{\textcolor{cyan!40!blue}{Huawei}}}{Assistant Engineer, Developer}{October 2021 - January 2022\vspace{0.0em}}{}{
+
+	\cventry{}{}{Huawei Assistant Engineer, Developer}{October 2021 - January 2022\vspace{-1.0em}}{}{
 		% Detailed achievements:%
 		%\begin{itemize}
 		Worked on backend C\#/.netASP/EntityFramework/Autofac + frontend 3js/react/VR. Developed a system of package communication with no delay that alternates between http and signalR requests.
 		%\end{itemize}
 	}
-	\cventry{}{\href{https://yandex.com/company}{\textcolor{cyan!40!blue}{Yandex}}}{Developer Intern}{July - Sept 2021\vspace{0.0em}}{}{
+	\cventry{}{}{Yandex Developer Intern}{July - Sept 2021\vspace{-1.0em}}{}{
 		% Detailed achievements:%
 		%\begin{itemize}
 		Worked in two teams on backend C++/Python/SQL. Developed a support system for training scripts to work with stored variable logs. Wrote tests for components that were used to prepare data for a neural network that makes recommendations.
@@ -107,38 +112,38 @@
 	\cventry{}{}{Study of the Effect of Noise on Efficient Quantum Search Algorithms}{2022\vspace{-1.0em}}{}{
 		Implemented \href{https://doi.org/10.1007/s11128-021-03165-2}{\textcolor{blue}{improved Grover's search algorithm}} with Qiskit and tested it's performance with different noise models. \href{https://github.com/StudioShader/QPSA/blob/main/presentation.pdf}{\textcolor{blue}{Presentation}}.
 	}
-	% \cventry{}{}{Quantum Algorithms for VRP and VRPTW Problems}{2021\vspace{-1.0em}}{}{
-	% 	Worked on the problem of finding routes for drilling machines for oil production in collaboration with GazpromNeft. Found a reduction of this problem to QUBO. Used Qiskit to solve it using VQE and QAOA.
-	% }
-	% \cventry{}{}{Teacher Assistant}{2023\vspace{-1.0em}}{}{
-	% 	Created homework and course notes on the course "Introduction to Quantum Computation", for prof. \href{https://scholar.google.com/citations?user=UnZl40AAAAAJ&hl=en}{\textcolor{blue}{Sergey Tikhomirov}}.
-	% }
+	\cventry{}{}{Quantum Algorithms for VRP and VRPTW Problems}{2021\vspace{-1.0em}}{}{
+		Worked on the problem of finding routes for drilling machines for oil production in collaboration with GazpromNeft. Found a reduction of this problem to QUBO. Used Qiskit to solve it using VQE and QAOA.
+	}
+	\cventry{}{}{Teacher Assistant}{2023\vspace{-1.0em}}{}{
+		Created homework and course notes on the course "Introduction to Quantum Computation", for prof. \href{https://scholar.google.com/citations?user=UnZl40AAAAAJ&hl=en}{\textcolor{blue}{Sergey Tikhomirov}}.
+	}
 	\cventry{}{}{Quantum Computing and Quantum Information via NMR}{2022\vspace{-1.0em}}{}{
 		I operated an NMR device encoding and entangling two qubits at the School of Experimental Physics of CBPF earning a  \href{https://github.com/StudioShader/StudioShader/blob/main/Certificados-21.pdf}{\textcolor{blue}{certificate}}.
 	}
-	% \cventry{}{}{Qiskit Global Summer School 2022 - Quantum Excellence}{2022\vspace{-1.0em}}{}{
-	% 	I excelled at Qiskit Global Summer School 2022 which was dedicated to quantum simulations, earning a \href{https://www.credly.com/badges/3304071b-2191-46fe-9de6-0b1cc019a06f/public_url}{\textcolor{blue}{badge on Credly}}.
-	% }
+	\cventry{}{}{Qiskit Global Summer School 2022 - Quantum Excellence}{2022\vspace{-1.0em}}{}{
+		I excelled at Qiskit Global Summer School 2022 which was dedicated to quantum simulations, earning a \href{https://www.credly.com/badges/3304071b-2191-46fe-9de6-0b1cc019a06f/public_url}{\textcolor{blue}{badge on Credly}}.
+	}
 		
-	\section{Programming Skills and Languages}
-		\begin{itemize}
-			\item C++, Python, CPython, C\#, C, Java, JavaScript, HTML, CSS, Kotlin, Haskell, Scala, SQL, Lean
-			\item Pybind, ASPnet, EntityFramework, Microsoft SQL Express, React, three.js, postgreSQL, Django, Bootstrap
-			\item Git, Linux, Unity3D, SVN, Blender(3d modeling), protobuff, Shiny, Docker
-			\item Russian (Native), English (Fluent), Portuguese (Speaking)
-		\end{itemize}
+\section{Programming Skills and Languages}
+	\begin{itemize}
+		\item C++, Python, CPython, C\#, C, Java, JavaScript, HTML, CSS, Kotlin, Haskell, Scala, SQL, Lean
+		\item Pybind, ASPnet, EntityFramework, Microsoft SQL Express, React, three.js, postgreSQL, Django, Bootstrap
+		\item Git, Linux, Unity3D, SVN, Blender(3d modeling), protobuff, Shiny, Docker
+		\item Russian (Native), English (Fluent), Portuguese (Speaking)
+	\end{itemize}
 		
-		\vspace*{\fill}
-		\name{}{}
-		\title{}
-		\phone[mobile]{+49~15162630532}
-		\address{Erhard-Grözinger-Straße, 75}{Blaustein}{Germany}
-		\email{ivanogloblin2022@gmail.com}
-		\social[github]{ivanoglo}   
-		\makecvtitle
-		%\section{Languages}
-		%\begin{itemize}
-		%	\item Russian (Native), English (Upper-Intermediate)
-		%\end{itemize}
-		%\makecvfoot
-	\end{document}
+	\vspace*{\fill}
+	\name{}{}
+	\title{}
+	\phone[mobile]{+49~015162630532}
+	\address{Bismarckring, 64}{Ulm}{Germany}
+	\email{ivanogloblin2022@gmail.com}
+	\social[github]{ivanoglo}   
+	\makecvtitle
+	%\section{Languages}
+	%\begin{itemize}
+	%	\item Russian (Native), English (Upper-Intermediate)
+	%\end{itemize}
+	%\makecvfoot
+\end{document}

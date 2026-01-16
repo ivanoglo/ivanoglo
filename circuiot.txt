@@ -1,0 +1,543 @@
+H 0
+M 0
+H 0
+H 3
+M 3
+H 3
+H 6
+M 6
+H 6
+OBSERVABLE_INCLUDE [-3, -2, -1] 0
+R 9
+H 9
+CX 9 0
+CX 9 1
+H 9
+M 9
+LRU 0 0.0
+LRU 1 0.0
+LRU 9 0.0
+R 10
+H 10
+CX 10 1
+CX 10 2
+CX 10 4
+CX 10 5
+H 10
+M 10
+LRU 1 0.0
+LRU 2 0.0
+LRU 4 0.0
+LRU 5 0.0
+LRU 10 0.0
+R 11
+H 11
+CX 11 3
+CX 11 4
+CX 11 6
+CX 11 7
+H 11
+M 11
+LRU 3 0.0
+LRU 4 0.0
+LRU 6 0.0
+LRU 7 0.0
+LRU 11 0.0
+R 12
+H 12
+CX 12 7
+CX 12 8
+H 12
+M 12
+LRU 7 0.0
+LRU 8 0.0
+LRU 12 0.0
+R 13
+H 13
+CZ 13 0
+CZ 13 3
+CZ 13 1
+CZ 13 4
+H 13
+M 13
+LRU 0 0.0
+LRU 3 0.0
+LRU 1 0.0
+LRU 4 0.0
+LRU 13 0.0
+R 14
+H 14
+CZ 14 2
+CZ 14 5
+H 14
+M 14
+LRU 2 0.0
+LRU 5 0.0
+LRU 14 0.0
+R 15
+H 15
+CZ 15 3
+CZ 15 6
+H 15
+M 15
+LRU 3 0.0
+LRU 6 0.0
+LRU 15 0.0
+R 16
+H 16
+CZ 16 4
+CZ 16 7
+CZ 16 5
+CZ 16 8
+H 16
+M 16
+LRU 4 0.0
+LRU 7 0.0
+LRU 5 0.0
+LRU 8 0.0
+LRU 16 0.0
+XP_CHANNEL {'c->2': 0.3} 0
+XP_CHANNEL {'c->2': 0.3} 1
+XP_CHANNEL {'c->2': 0.3} 2
+XP_CHANNEL {'c->2': 0.3} 3
+XP_CHANNEL {'c->2': 0.3} 4
+XP_CHANNEL {'c->2': 0.3} 5
+XP_CHANNEL {'c->2': 0.3} 6
+XP_CHANNEL {'c->2': 0.3} 7
+XP_CHANNEL {'c->2': 0.3} 8
+XP_CHANNEL {'c->2': 0.3} 9
+XP_CHANNEL {'c->2': 0.3} 10
+XP_CHANNEL {'c->2': 0.3} 11
+XP_CHANNEL {'c->2': 0.3} 12
+XP_CHANNEL {'c->2': 0.3} 13
+XP_CHANNEL {'c->2': 0.3} 14
+XP_CHANNEL {'c->2': 0.3} 15
+XP_CHANNEL {'c->2': 0.3} 16
+R 9
+XP_CHANNEL {'c->2': 0.3} 9
+H 9
+XP_CHANNEL {'c->2': 0.3} 9
+CX 9 0
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 9 0
+CX 9 1
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 9 1
+H 9
+XP_CHANNEL {'c->2': 0.3} 9
+M 9
+LRU 0 0.0
+LRU 1 0.0
+LRU 9 0.0
+R 10
+XP_CHANNEL {'c->2': 0.3} 10
+H 10
+XP_CHANNEL {'c->2': 0.3} 10
+CX 10 1
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 10 1
+CX 10 2
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 10 2
+CX 10 4
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 10 4
+CX 10 5
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 10 5
+H 10
+XP_CHANNEL {'c->2': 0.3} 10
+M 10
+LRU 1 0.0
+LRU 2 0.0
+LRU 4 0.0
+LRU 5 0.0
+LRU 10 0.0
+R 11
+XP_CHANNEL {'c->2': 0.3} 11
+H 11
+XP_CHANNEL {'c->2': 0.3} 11
+CX 11 3
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 11 3
+CX 11 4
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 11 4
+CX 11 6
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 11 6
+CX 11 7
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 11 7
+H 11
+XP_CHANNEL {'c->2': 0.3} 11
+M 11
+LRU 3 0.0
+LRU 4 0.0
+LRU 6 0.0
+LRU 7 0.0
+LRU 11 0.0
+R 12
+XP_CHANNEL {'c->2': 0.3} 12
+H 12
+XP_CHANNEL {'c->2': 0.3} 12
+CX 12 7
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 12 7
+CX 12 8
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 12 8
+H 12
+XP_CHANNEL {'c->2': 0.3} 12
+M 12
+LRU 7 0.0
+LRU 8 0.0
+LRU 12 0.0
+R 13
+XP_CHANNEL {'c->2': 0.3} 13
+H 13
+XP_CHANNEL {'c->2': 0.3} 13
+CZ 13 0
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 13 0
+CZ 13 3
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 13 3
+CZ 13 1
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 13 1
+CZ 13 4
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 13 4
+H 13
+XP_CHANNEL {'c->2': 0.3} 13
+M 13
+LRU 0 0.0
+LRU 3 0.0
+LRU 1 0.0
+LRU 4 0.0
+LRU 13 0.0
+R 14
+XP_CHANNEL {'c->2': 0.3} 14
+H 14
+XP_CHANNEL {'c->2': 0.3} 14
+CZ 14 2
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 14 2
+CZ 14 5
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 14 5
+H 14
+XP_CHANNEL {'c->2': 0.3} 14
+M 14
+LRU 2 0.0
+LRU 5 0.0
+LRU 14 0.0
+R 15
+XP_CHANNEL {'c->2': 0.3} 15
+H 15
+XP_CHANNEL {'c->2': 0.3} 15
+CZ 15 3
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 15 3
+CZ 15 6
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 15 6
+H 15
+XP_CHANNEL {'c->2': 0.3} 15
+M 15
+LRU 3 0.0
+LRU 6 0.0
+LRU 15 0.0
+R 16
+XP_CHANNEL {'c->2': 0.3} 16
+H 16
+XP_CHANNEL {'c->2': 0.3} 16
+CZ 16 4
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 16 4
+CZ 16 7
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 16 7
+CZ 16 5
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 16 5
+CZ 16 8
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 16 8
+H 16
+XP_CHANNEL {'c->2': 0.3} 16
+M 16
+LRU 4 0.0
+LRU 7 0.0
+LRU 5 0.0
+LRU 8 0.0
+LRU 16 0.0
+DETECTOR -8 -16
+DETECTOR -7 -15
+DETECTOR -6 -14
+DETECTOR -5 -13
+DETECTOR -4 -12
+DETECTOR -3 -11
+DETECTOR -2 -10
+DETECTOR -1 -9
+XP_CHANNEL {'c->2': 0.3} 0
+XP_CHANNEL {'c->2': 0.3} 1
+XP_CHANNEL {'c->2': 0.3} 2
+XP_CHANNEL {'c->2': 0.3} 3
+XP_CHANNEL {'c->2': 0.3} 4
+XP_CHANNEL {'c->2': 0.3} 5
+XP_CHANNEL {'c->2': 0.3} 6
+XP_CHANNEL {'c->2': 0.3} 7
+XP_CHANNEL {'c->2': 0.3} 8
+XP_CHANNEL {'c->2': 0.3} 9
+XP_CHANNEL {'c->2': 0.3} 10
+XP_CHANNEL {'c->2': 0.3} 11
+XP_CHANNEL {'c->2': 0.3} 12
+XP_CHANNEL {'c->2': 0.3} 13
+XP_CHANNEL {'c->2': 0.3} 14
+XP_CHANNEL {'c->2': 0.3} 15
+XP_CHANNEL {'c->2': 0.3} 16
+R 9
+XP_CHANNEL {'c->2': 0.3} 9
+H 9
+XP_CHANNEL {'c->2': 0.3} 9
+CX 9 0
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 9 0
+CX 9 1
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 9 1
+H 9
+XP_CHANNEL {'c->2': 0.3} 9
+M 9
+LRU 0 0.0
+LRU 1 0.0
+LRU 9 0.0
+R 10
+XP_CHANNEL {'c->2': 0.3} 10
+H 10
+XP_CHANNEL {'c->2': 0.3} 10
+CX 10 1
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 10 1
+CX 10 2
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 10 2
+CX 10 4
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 10 4
+CX 10 5
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 10 5
+H 10
+XP_CHANNEL {'c->2': 0.3} 10
+M 10
+LRU 1 0.0
+LRU 2 0.0
+LRU 4 0.0
+LRU 5 0.0
+LRU 10 0.0
+R 11
+XP_CHANNEL {'c->2': 0.3} 11
+H 11
+XP_CHANNEL {'c->2': 0.3} 11
+CX 11 3
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 11 3
+CX 11 4
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 11 4
+CX 11 6
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 11 6
+CX 11 7
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 11 7
+H 11
+XP_CHANNEL {'c->2': 0.3} 11
+M 11
+LRU 3 0.0
+LRU 4 0.0
+LRU 6 0.0
+LRU 7 0.0
+LRU 11 0.0
+R 12
+XP_CHANNEL {'c->2': 0.3} 12
+H 12
+XP_CHANNEL {'c->2': 0.3} 12
+CX 12 7
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 12 7
+CX 12 8
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 12 8
+H 12
+XP_CHANNEL {'c->2': 0.3} 12
+M 12
+LRU 7 0.0
+LRU 8 0.0
+LRU 12 0.0
+R 13
+XP_CHANNEL {'c->2': 0.3} 13
+H 13
+XP_CHANNEL {'c->2': 0.3} 13
+CZ 13 0
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 13 0
+CZ 13 3
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 13 3
+CZ 13 1
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 13 1
+CZ 13 4
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 13 4
+H 13
+XP_CHANNEL {'c->2': 0.3} 13
+M 13
+LRU 0 0.0
+LRU 3 0.0
+LRU 1 0.0
+LRU 4 0.0
+LRU 13 0.0
+R 14
+XP_CHANNEL {'c->2': 0.3} 14
+H 14
+XP_CHANNEL {'c->2': 0.3} 14
+CZ 14 2
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 14 2
+CZ 14 5
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 14 5
+H 14
+XP_CHANNEL {'c->2': 0.3} 14
+M 14
+LRU 2 0.0
+LRU 5 0.0
+LRU 14 0.0
+R 15
+XP_CHANNEL {'c->2': 0.3} 15
+H 15
+XP_CHANNEL {'c->2': 0.3} 15
+CZ 15 3
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 15 3
+CZ 15 6
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 15 6
+H 15
+XP_CHANNEL {'c->2': 0.3} 15
+M 15
+LRU 3 0.0
+LRU 6 0.0
+LRU 15 0.0
+R 16
+XP_CHANNEL {'c->2': 0.3} 16
+H 16
+XP_CHANNEL {'c->2': 0.3} 16
+CZ 16 4
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 16 4
+CZ 16 7
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 16 7
+CZ 16 5
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 16 5
+CZ 16 8
+XP_CHANNEL2 {'c->2|i': 0.3, 'i|c->2': 0.3} 16 8
+H 16
+XP_CHANNEL {'c->2': 0.3} 16
+M 16
+LRU 4 0.0
+LRU 7 0.0
+LRU 5 0.0
+LRU 8 0.0
+LRU 16 0.0
+DETECTOR -8 -16
+DETECTOR -7 -15
+DETECTOR -6 -14
+DETECTOR -5 -13
+DETECTOR -4 -12
+DETECTOR -3 -11
+DETECTOR -2 -10
+DETECTOR -1 -9
+XP_CHANNEL {'c->2': 0.3} 0
+XP_CHANNEL {'c->2': 0.3} 1
+XP_CHANNEL {'c->2': 0.3} 2
+XP_CHANNEL {'c->2': 0.3} 3
+XP_CHANNEL {'c->2': 0.3} 4
+XP_CHANNEL {'c->2': 0.3} 5
+XP_CHANNEL {'c->2': 0.3} 6
+XP_CHANNEL {'c->2': 0.3} 7
+XP_CHANNEL {'c->2': 0.3} 8
+XP_CHANNEL {'c->2': 0.3} 9
+XP_CHANNEL {'c->2': 0.3} 10
+XP_CHANNEL {'c->2': 0.3} 11
+XP_CHANNEL {'c->2': 0.3} 12
+XP_CHANNEL {'c->2': 0.3} 13
+XP_CHANNEL {'c->2': 0.3} 14
+XP_CHANNEL {'c->2': 0.3} 15
+XP_CHANNEL {'c->2': 0.3} 16
+R 9
+H 9
+CX 9 0
+CX 9 1
+H 9
+M 9
+LRU 0 0.0
+LRU 1 0.0
+LRU 9 0.0
+R 10
+H 10
+CX 10 1
+CX 10 2
+CX 10 4
+CX 10 5
+H 10
+M 10
+LRU 1 0.0
+LRU 2 0.0
+LRU 4 0.0
+LRU 5 0.0
+LRU 10 0.0
+R 11
+H 11
+CX 11 3
+CX 11 4
+CX 11 6
+CX 11 7
+H 11
+M 11
+LRU 3 0.0
+LRU 4 0.0
+LRU 6 0.0
+LRU 7 0.0
+LRU 11 0.0
+R 12
+H 12
+CX 12 7
+CX 12 8
+H 12
+M 12
+LRU 7 0.0
+LRU 8 0.0
+LRU 12 0.0
+R 13
+H 13
+CZ 13 0
+CZ 13 3
+CZ 13 1
+CZ 13 4
+H 13
+M 13
+LRU 0 0.0
+LRU 3 0.0
+LRU 1 0.0
+LRU 4 0.0
+LRU 13 0.0
+R 14
+H 14
+CZ 14 2
+CZ 14 5
+H 14
+M 14
+LRU 2 0.0
+LRU 5 0.0
+LRU 14 0.0
+R 15
+H 15
+CZ 15 3
+CZ 15 6
+H 15
+M 15
+LRU 3 0.0
+LRU 6 0.0
+LRU 15 0.0
+R 16
+H 16
+CZ 16 4
+CZ 16 7
+CZ 16 5
+CZ 16 8
+H 16
+M 16
+LRU 4 0.0
+LRU 7 0.0
+LRU 5 0.0
+LRU 8 0.0
+LRU 16 0.0
+DETECTOR -8 -16
+DETECTOR -7 -15
+DETECTOR -6 -14
+DETECTOR -5 -13
+DETECTOR -4 -12
+DETECTOR -3 -11
+DETECTOR -2 -10
+DETECTOR -1 -9
+H 0
+M 0
+H 0
+H 3
+M 3
+H 3
+H 6
+M 6
+H 6
+OBSERVABLE_INCLUDE [-3, -2, -1] 0

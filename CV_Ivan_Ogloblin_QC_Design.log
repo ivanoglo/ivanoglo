@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.15)  14 JAN 2026 16:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.15)  11 SEP 2025 15:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/ivanogloblin/CVCV/StudioShader/CV_Ivan_Ogloblin.tex
-(/Users/ivanogloblin/CVCV/StudioShader/CV_Ivan_Ogloblin.tex
+**/Users/ivanogloblin/CVCV/StudioShader/CV_Ivan_Ogloblin_QC_Design.tex
+(/Users/ivanogloblin/CVCV/StudioShader/CV_Ivan_Ogloblin_QC_Design.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/moderncv/moderncv.cls
@@ -743,8 +743,8 @@ Package hyperref Info: Option `bookmarksopen' set `true' on input line 58.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 58.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./CV_Ivan_Ogloblin.aux)
-\openout1 = `CV_Ivan_Ogloblin.aux'.
+) (./CV_Ivan_Ogloblin_QC_Design.aux)
+\openout1 = `CV_Ivan_Ogloblin_QC_Design.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
@@ -846,9 +846,9 @@ Package chemgreek Info: Activating mapping `default' on line 58.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 58.
-(./CV_Ivan_Ogloblin.out) (./CV_Ivan_Ogloblin.out)
+(./CV_Ivan_Ogloblin_QC_Design.out) (./CV_Ivan_Ogloblin_QC_Design.out)
 \@outlinefile=\write4
-\openout4 = `CV_Ivan_Ogloblin.out'.
+\openout4 = `CV_Ivan_Ogloblin_QC_Design.out'.
 
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <24.88> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 62.
@@ -890,46 +890,46 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 138.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 143.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 138.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 143.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 138.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 143.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 138.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 143.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 138.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 143.
 
-Overfull \vbox (1.50044pt too high) has occurred while \output is active []
+Overfull \vbox (2.47346pt too high) has occurred while \output is active []
 
 
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}] (./CV_Ivan_Ogloblin.aux)
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}] (./CV_Ivan_Ogloblin_QC_Design.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `CV_Ivan_Ogloblin.out' has not changed.
+Package rerunfilecheck Info: File `CV_Ivan_Ogloblin_QC_Design.out' has not changed.
 (rerunfilecheck)             Checksum: 7824F03EE61BE16050D1D444C812FFBF;504.
  ) 
 Here is how much of TeX's memory you used:
- 28431 strings out of 473190
- 546114 string characters out of 5715800
- 980446 words of memory out of 5000000
- 51122 multiletter control sequences out of 15000+600000
- 610325 words of font info for 103 fonts, out of 8000000 for 9000
+ 28423 strings out of 473190
+ 546201 string characters out of 5715800
+ 985476 words of memory out of 5000000
+ 51120 multiletter control sequences out of 15000+600000
+ 610022 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,11n,129p,1051b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/l/public/lm/lmsso10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on CV_Ivan_Ogloblin.pdf (1 page, 212030 bytes).
+ 129i,11n,129p,1061b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on CV_Ivan_Ogloblin_QC_Design.pdf (1 page, 211823 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  29229 words of extra memory for PDF output out of 29859 (max. 10000000)
 
