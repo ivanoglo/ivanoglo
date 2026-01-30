@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run interval_map_tests",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/cpp_task/interval_map_tests",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/cpp_task",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "preLaunchTask": "C/C++: g++ build interval_map_tests"
+    }
+  ]
+}
