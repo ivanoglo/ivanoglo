@@ -6,5 +6,59 @@
   "files.associations": {
     "*.dbclient-js": "javascript",
     "map": "cpp"
+  },
+  "files.autoSave": "off",
+  "files.autoSaveDelay": 1000,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.decorations.badges": true,
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.showTabs": "multiple",
+  "[latex]": {
+    "editor.formatOnSave": false
+  },
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk",
+      "tools": [
+        "latexmk"
+      ]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-pdf",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-synctex=1",
+        "%DOC%"
+      ]
+    }
+  ],
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.tex$",
+        "cmd": "latexmk -pdf -interaction=nonstopmode -file-line-error -synctex=1 ${file}",
+        "runIn": "fileDirname",
+        "runningStatusMessage": "Building PDF...",
+        "finishStatusMessage": "PDF built successfully"
+      }
+    ]
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/*.aux": true,
+    "**/*.log": true,
+    "**/*.out": true,
+    "**/*.synctex.gz": true,
+    "**/*.fls": true,
+    "**/*.fdb_latexmk": true
   }
 }

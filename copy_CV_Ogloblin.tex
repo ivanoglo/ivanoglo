@@ -6,6 +6,7 @@
 \usepackage{xcolor}
 \usepackage{multicol}
 \usepackage[scale=0.9,top=1.5cm, bottom=0cm]{geometry}
+\usepackage{fontawesome5}
 \setlength{\footskip}{40.8pt}
 
 \nopagenumbers{}
@@ -15,19 +16,42 @@
 
 % personal data
 
-\name{Ivan}{Ogloblin}                               % optional, remove / comment the line if not wanted
-\firstname{Ivan} % Your first name
-\lastname{Ogloblin} % Your last name
-
+\name{Ivan}{Ogloblin}
+\firstname{Ivan}
+\lastname{Ogloblin}
 \title{Curriculum Vitae}
+\mobile{+49~15162630532}
+\address{}{Blaustein}
+\email{ivanogloblin2022@gmail.com}
+\social[github]{ivanoglo}
 
-\vspace*{3mm}
+% Custom header: name on top, contact info in one line below
+\makeatletter
+\renewcommand*{\makecvtitle}{%
+	\vspace*{-15mm}
+	\noindent
+	\namestyle{\@firstname~\@familyname}\\[0.3em]
+	{\addressfont\color{color2}%
+	\faMapMarker~%
+	\ifthenelse{\equal{\@addressstreet}{}}{%
+		\@addresscity~--~Germany%
+	}{%
+		\@addressstreet~--~\@addresscity~--~Germany%
+	}%
+	~~\textbullet~~\mobilesymbol+49~15162630532%
+	\ifthenelse{\isundefined{\@email}}{}{~~\textbullet~~\emailsymbol\emaillink{\@email}}%
+	~~\textbullet~~\homepagesymbol\httplink{github.com/ivanoglo}%
+	}\par
+	\normalfont\color{color0}%
+	\vspace*{0.3em}
+}
+\makeatother
 
 \begin{document}
-	\vspace*{-15mm}
 	\makecvtitle
-	\vspace*{-10mm}
-
+	\vspace*{3mm}
+	Full Stack Engineer and former CTO with a strong entrepreneurial background in building scalable AI-powered products. Co-founded and scaled a profitable AI platform to 200,000+ users, overseeing full-stack architecture, LLM pipelines, and
+	distributed infrastructure. Expertise in Python and TypeScript, with a proven ability to deliver high-performance software from prototype to production. Experienced in agile development, backend optimization, and integrating complex AI models into user-facing applications.
 	\section{Work Experience}
 	
 	\cventry{}{\href{https://qc.design}{\textcolor{cyan!40!blue}{QC Design}}}{Quantum Software Engineer}{Feb 2024 - Feb 2026\vspace{0.0em}}{}{
@@ -35,7 +59,7 @@
 	}
 	%\end{itemize}}
 	\cventry{}{\href{https://wetdreams.io/contact}{\textcolor{cyan!40!blue}{WD AI}}}{Co-founder and CTO}{Oct 2022 - Dec 2023\vspace{0.0em}}{}{
-		Co-founded and served as CTO of WD AI, a \textbf{profitable AI platform} scaled to 200,000+ users and \textasciitilde900 concurrent sessions. Led end-to-end development from prototype to production, building full-stack architecture, LLM pipelines, authentication, and billing. Designed and operated distributed infrastructure with CI/CD and containerization, focusing on reliability under rapid growth. Built and \textbf{led a team of 4 engineers}, overseeing hiring, architecture, and code reviews, and driving adoption of NestJS-based microservices, Kubernetes, and multi-platform integration.
+		Co-founded and served as CTO of WetDreams, a \textbf{profitable AI platform} scaled to 200,000+ users and \textasciitilde900 concurrent sessions. Led end-to-end development from prototype to production, building full-stack architecture, LLM pipelines, authentication, and billing. Designed and operated distributed infrastructure with CI/CD and containerization, focusing on reliability under rapid growth. Built and \textbf{led a team of 4 engineers}, overseeing hiring, architecture, and code reviews, and driving adoption of NestJS-based microservices, Kubernetes, and multi-platform integration.
 	}
 
 	\cventry{}{\href{https://www.huawei.com}{\textcolor{cyan!40!blue}{Huawei}}}{Full-Stack Developer}{Sep 2021 - Aug 2022\vspace{0.0em}}{}{
@@ -55,10 +79,10 @@
 	\cventry{}{}{Master's Thesis}{2023-2025\vspace{-1.0em}}{}{
 		Investigated a photonic-based model to implement a topological quantum memory experiment. Explored error models and \textbf{performed threshold estimations} using matching-based decoders on FBQC codes. Demonstrated how logical qubits can be reliably stored by repeatedly fusing resource states, enabling a scalable approach to fault-tolerant quantum memory.
 	}
-	\cventry{}{}{Undergraduate Thesis}{2022-2023\vspace{-1.0em}}{}{
-		I did research on optimal schemes of entangling transformations in linear quantum optics. I used a genetic algorithm and ran it on \textbf{GPUs with Pytorch}. New schemes were obtained for finding the maximum entangled state, as well as for implementing gates equivalent to CX in the KLM protocol.
-		\href{https://github.com/StudioShader/galopy/blob/master/slides(eng).pdf}{\textcolor{blue}{Presentation}}.
-	}
+	% \cventry{}{}{Undergraduate Thesis}{2022-2023\vspace{-1.0em}}{}{
+	% 	I did research on optimal schemes of entangling transformations in linear quantum optics. I used a genetic algorithm and ran it on \textbf{GPUs with Pytorch}. New schemes were obtained for finding the maximum entangled state, as well as for implementing gates equivalent to CX in the KLM protocol.
+	% 	\href{https://github.com/StudioShader/galopy/blob/master/slides(eng).pdf}{\textcolor{blue}{Presentation}}.
+	% }
 
 	\section{Education}
 	\cventry{}{}{Bachelor of Science in Computer Science and Software Engineering}{Sep 2019 - Jul 2023}{\hspace*{-2.5 mm} Saint-Petersburg State University}{}
@@ -74,13 +98,4 @@
 		% \item \textbf{Other:} Unity3D, three.js
 		\item \textbf{Languages:} Russian (Native), English (Fluent), Portuguese (Conversational), German (Beginner)
 	\end{itemize}
-	
-	\vspace*{0.2cm}
-	\name{}{}
-	\title{}
-	\phone[mobile]{+49~15162630532}
-	\address{Erhard-Grözinger-Straße, 75}{Blaustein}{Germany}
-	\email{ivanogloblin2022@gmail.com}
-	\social[github]{ivanoglo}   
-	\makecvtitle
 \end{document}

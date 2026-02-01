@@ -44,9 +44,31 @@
       ],
       "group": {
         "kind": "build",
-        "isDefault": true
+        "isDefault": false
       },
       "detail": "Build interval_map_tests."
+    },
+    {
+      "label": "LaTeX: Build PDF",
+      "type": "shell",
+      "command": "latexmk",
+      "args": [
+        "-pdf",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-synctex=1",
+        "${file}"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": [
+        "$latex"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
   ],
   "version": "2.0.0"
