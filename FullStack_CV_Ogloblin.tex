@@ -40,7 +40,7 @@
 	}%
 	~~\textbullet~~\mobilesymbol+49~15162630532%
 	\ifthenelse{\isundefined{\@email}}{}{~~\textbullet~~\emailsymbol\emaillink{\@email}}%
-	~~\textbullet~~\homepagesymbol\httplink{github.com/ivanoglo}%
+	~~\textbullet~~\faGithub~\httplink{github.com/ivanoglo}%
 	}\par
 	\normalfont\color{color0}%
 	\vspace*{0.3em}
@@ -74,7 +74,7 @@
 	\section{Projects}
 
 	\cventry{}{}{Simulation of photonic quantum computing}{2023\vspace{-1.0em}}{}{
-		Developed a web service dedicated to simulation of linear and non-linear optics for quantum computational models using Python and Django, enabling \textbf{interactive experimentation with optical circuits}. Used \href{https://strawberryfields.ai/}{\textcolor{blue}{Strawberry fields}} as an underlying engine. (\href{https://github.com/StudioShader/SF_Composer}{\textcolor{blue}{github}})
+		Developed a web service dedicated to simulation of linear and non-linear optics for quantum computational models using \textbf{Python and Django}, enabling interactive experimentation with optical circuits. Used \href{https://strawberryfields.ai/}{\textcolor{blue}{Strawberry fields}} as an underlying engine. (\href{https://github.com/StudioShader/SF_Composer}{\textcolor{blue}{github}})
 	}
 	\cventry{}{}{Master's Thesis}{2023-2025\vspace{-1.0em}}{}{
 		Investigated a photonic-based model to implement a topological quantum memory experiment. Explored error models and \textbf{performed threshold estimations} using matching-based decoders on FBQC codes. Demonstrated how logical qubits can be reliably stored by repeatedly fusing resource states, enabling a scalable approach to fault-tolerant quantum memory.
