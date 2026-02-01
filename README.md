@@ -14,7 +14,7 @@ Experienced in taking complex systems from prototype to production, combining ha
 <p style="font-size:14px; line-height:1.5;">
 <span style="color:#6f42c1;"><strong>📍 Location:</strong></span> Ulm, Germany (willing to relocate)<br>
 <span style="color:#6f42c1;"><strong>🧠 Interests:</strong></span> AI, Quantum Computing, Game Development<br>
-<span style="color:#6f42c1;"><strong>💻 Languages:</strong></span> C++, Python, C#, TypeScript<br>
+<span style="color:#6f42c1;"><strong>💻 Core Languages:</strong></span> C++, Python, C#, TypeScript<br>
 <span style="color:#6f42c1;"><strong>💬 Telegram:</strong></span> @old_Cheech
 </p>
 
