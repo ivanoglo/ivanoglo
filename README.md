@@ -3,7 +3,7 @@
 <!-- <h2 style="color:#2f80ed;">ivanoglo@github</h2> -->
 
 ### ivanoglo@github
-<code style="color : red">text</code>
+$${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
 
 <p style="color:#333333; font-size:15px; line-height:1.6;">
 <strong>Full Stack and Quantum Software Engineer</strong> with a strong entrepreneurial background and 5 years of experience in building scalable, high-performance systems.<br>
