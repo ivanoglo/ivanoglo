@@ -1,8 +1,4 @@
 <img align="left" src="Me3.jpg" width="320" /> 
-
-<!-- <h2 style="color:#2f80ed;">ivanoglo@github</h2> -->
-
-### ivanoglo@github
 $${\color{white}Welcome,\space my\space name\space is\space \color{lightblue}Ivan \space \color{blue} Ogloblin}$$
 
 <p style="color:#333333; font-size:15px; line-height:1.6;">
