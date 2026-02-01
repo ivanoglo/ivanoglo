@@ -1,14 +1,19 @@
 <img align="left" src="Me3.jpg" width="320" /> 
 
-### ivanoglo@github
+<h2 style="color:#2f80ed;">ivanoglo@github</h2>
 
-**Full Stack and Quantum Software Engineer** with a strong entrepreneurial background and 5 years of experience in building scalable, high-performance systems.  
-Former CTO and co-founder of a profitable AI platform scaled to 200,000+ users, leading full-stack architecture, LLM pipelines, and distributed infrastructure.  
-Specialized in C++/Python integration, achieving over 10,000× performance gains in quantum simulation, with expertise in scientific computing, validation frameworks, and error correction.  
+<p style="color:#333333; font-size:15px; line-height:1.6;">
+<strong>Full Stack and Quantum Software Engineer</strong> with a strong entrepreneurial background and 5 years of experience in building scalable, high-performance systems.<br>
+Former CTO and co-founder of a profitable AI platform scaled to <strong>200,000+</strong> users, leading full-stack architecture, LLM pipelines, and distributed infrastructure.<br>
+Specialized in <strong>C++/Python integration</strong>, achieving over <strong>10,000×</strong> performance gains in quantum simulation, with expertise in scientific computing and error correction.<br>
 Experienced in taking complex systems from prototype to production, combining hardware-aware design, backend optimization, and reliable automation.
+</p>
 
-**Location:** Ulm, Germany (willing to relocate)  
-**Interests:** AI revolution, quantum computing, game development  
-**Core Languages:** C++, Python, C#, TypeScript  
-**Telegram:** @old_Cheech 
+<p style="font-size:14px; line-height:1.5;">
+<span style="color:#6f42c1;"><strong>📍 Location:</strong></span> Ulm, Germany (willing to relocate)<br>
+<span style="color:#6f42c1;"><strong>🧠 Interests:</strong></span> AI, Quantum Computing, Game Development<br>
+<span style="color:#6f42c1;"><strong>💻 Languages:</strong></span> C++, Python, C#, TypeScript<br>
+<span style="color:#6f42c1;"><strong>💬 Telegram:</strong></span> @old_Cheech
+</p>
+
 [And here is my latest resume .pdf](CV_Ivan_Ogloblin.pdf)
