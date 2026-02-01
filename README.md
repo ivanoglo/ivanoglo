@@ -5,12 +5,32 @@
 ### ivanoglo@github
 $${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
 
-<p style="color:#333333; font-size:15px; line-height:1.6;">
+<!-- <p style="color:#333333; font-size:15px; line-height:1.6;">
 <strong>Full Stack and Quantum Software Engineer</strong> with a strong entrepreneurial background and 5 years of experience in building scalable, high-performance systems.<br>
 Former CTO and co-founder of a profitable AI platform scaled to <strong>200,000+</strong> users, leading full-stack architecture, LLM pipelines, and distributed infrastructure.<br>
 Specialized in <strong>C++/Python integration</strong>, achieving over <strong>10,000×</strong> performance gains in quantum simulation, with expertise in scientific computing and error correction.<br>
 Experienced in taking complex systems from prototype to production, combining hardware-aware design, backend optimization, and reliable automation.
-</p>
+</p> -->
+
+$$
+\color{RoyalBlue}{\textbf{Full\ Stack\ and\ Quantum\ Software\ Engineer}}
+\color{black}{\ with\ a\ strong\ entrepreneurial\ background\ and\ 5\ years\ of\ experience\ in\ building\ scalable,\ high\text{-}performance\ systems.}
+$$
+
+$$
+\color{DarkGreen}{Former\ CTO\ and\ co\text{-}founder\ of\ a\ profitable\ AI\ platform}
+\color{black}{\ scaled\ to\ 200{,}000+\ users,\ leading\ full\text{-}stack\ architecture,\ LLM\ pipelines,\ and\ distributed\ infrastructure.}
+$$
+
+$$
+\color{DarkRed}{Specialized\ in\ C++/Python\ integration}
+\color{black}{,\ achieving\ over\ 10{,}000\times\ performance\ gains\ in\ quantum\ simulation,\ with\ expertise\ in\ scientific\ computing\ and\ error\ correction.}
+$$
+
+$$
+\color{Purple}{Experienced\ in\ taking\ complex\ systems\ from\ prototype\ to\ production}
+\color{black}{,\ combining\ hardware\text{-}aware\ design,\ backend\ optimization,\ and\ reliable\ automation.}
+$$
 
 <p style="font-size:14px; line-height:1.5;">
 <span style="color:#6f42c1;"><strong>📍 Location:</strong></span> Ulm, Germany (willing to relocate)<br>
