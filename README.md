@@ -15,5 +15,3 @@ Experienced in taking complex systems from prototype to production, combining ha
 <span style="color:#6f42c1;"><strong>💻 Core Languages:</strong></span> C++, Python, C#, TypeScript<br>
 <span style="color:#6f42c1;"><strong>💬 Telegram:</strong></span> @old_Cheech
 </p>
-
-[And here is my latest resume .pdf](CV_Ivan_Ogloblin.pdf)
