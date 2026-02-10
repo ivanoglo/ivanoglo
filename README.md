@@ -2,7 +2,7 @@
 
 $${\color{white}Welcome,\space my\space name\space is\space \color{lightblue}Ivan \space \color{blue} Ogloblin}$$
 
-<ul style="color:#333333; font-size:15px; line-height:1.6; padding-left:20px;">
+<ul style="color:#333333; font-size:15px; line-height:1.6; padding-left:20px; list-style-position: inside;">
   <li>
     <strong>Middle Software Engineer</strong> with a strong entrepreneurial background and
     <strong>5 years of experience</strong> building scalable, high-performance systems.
