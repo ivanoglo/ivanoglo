@@ -51,51 +51,72 @@
 \begin{document}
 	\makecvtitle
 	\vspace*{3mm}
-	Fullstack Engineer with experience scaling web platforms to 200,000+ users. Built cloud-native solutions using Postgres, NestJS, and Python. Specialized in high-performance infrastructure, CI/CD optimization, and leading engineering teams from prototype to production. Strong background in distributed systems and database management.
+
+	Full-stack Engineer with a strong focus on cloud-native systems, scalable backend platforms, and developer infrastructure. Experienced in building and operating high-traffic products (200k+ users), designing CI/CD and deployment workflows, and owning production systems end-to-end. Background in distributed systems, performance optimization, and applied research.
+
 	\section{Work Experience}
 	
 	\cventry{}{\href{https://qc.design}{\textcolor{cyan!40!blue}{QC Design}}}{Quantum Software Engineer}{Feb 2024 - Feb 2026\vspace{0.0em}}{}{
-		Led development of QC Design’s core quantum simulation and analysis platform used directly by customers. Designed and implemented high-performance C++/Python infrastructure with custom CPython bindings, enabling \textbf{over 10,000× speedup} compared to pure Python implementations. \textbf{Prototyped and productionized advanced simulators}, error-correction codes, and optimizations for circuit analysis and logical error rate estimation. Contributed to comprehensive testing and benchmarking pipelines to ensure numerical accuracy and long-term maintainability. Worked independently while mentoring junior engineers and reviewing both code and research contributions.
-	}
-	%\end{itemize}}
-	\cventry{}{\href{}{\textcolor{cyan!40!blue}{WD AI}}}{Founding Engineer}{Oct 2022 - Dec 2023\vspace{0.0em}}{}{
-		Served as a Founding Engineer of WD AI, a \textbf{profitable AI platform} scaled to 200,000+ users and \textasciitilde900 concurrent sessions. Led end-to-end development from prototype to production, building full-stack architecture, LLM pipelines, authentication, and billing. Designed and operated distributed infrastructure with CI/CD and containerization, focusing on reliability under rapid growth. Built and \textbf{led a team of 4 engineers}, overseeing hiring, architecture, and code reviews, and driving adoption of NestJS-based microservices, Kubernetes, and multi-platform integration.
+		\begin{itemize}
+			\item Built core simulation platform using high-performance C++/Python infrastructure with custom bindings, achieving \textbf{10,000x speedup} over legacy implementations.
+			\item Prototyped and productionized advanced simulators, error-correction codes, and optimization techniques for circuit analysis and logical error rate estimation.
+			\item Designed and maintained comprehensive \textbf{testing, benchmarking, and CI/CD pipelines} to ensure numerical accuracy and long-term maintainability.
+			\item Used GCP to run long simulations at scale, manage distributed workloads, and generate large datasets for research analysis.
+		\end{itemize}
 	}
 
-	\cventry{}{\href{https://www.huawei.com}{\textcolor{cyan!40!blue}{Huawei}}}{Full-Stack Developer}{Sep 2021 - Aug 2022\vspace{0.0em}}{}{
-		Worked on a \textbf{real-time collaborative 3D platform} enabling simultaneous multi-user interaction with shared virtual objects. Developed backend state synchronization and low-latency networking in C\#/.NET using SignalR and REST APIs, ensuring consistent shared state across concurrent users, and implemented database-backed session and object management. Contributed to frontend interaction and scene logic in React and three.js and developed performance optimizations to improve stability and push for production, working closely with senior engineers and product management.
+	\cventry{}{\textcolor{cyan!40!blue}{WD AI}}{Founding Engineer}{Oct 2022 - Dec 2023\vspace{0.0em}}{}{
+		\begin{itemize}
+			\item Launched and scaled a profitable AI SaaS platform serving \textbf{200,000+ users} with production-grade distributed backend.
+			\item Designed and implemented the full stack using TypeScript, React, NestJS, and PostgreSQL, including authentication, billing, and integration with internal microservices and third-party APIs.
+			\item Built containerized microservices infrastructure with Kubernetes and Docker, operating \textbf{12+ dynamically scalable instances} for hosting large generative models, supporting  \textbf{\textasciitilde900 concurrent sessions}.
+			\item Established automated CI/CD pipelines, staging environments, and safe deployment workflows.
+			\item Integrated Redis for caching and session management, reducing database load and improving latency.
+		\end{itemize}
 	}
+
+	\cventry{}{\href{https://www.huawei.com}{\textcolor{cyan!40!blue}{Huawei}}}{Full-stack Developer}{Sep 2021 - Aug 2022\vspace{0.0em}}{}{
+		\begin{itemize}
+			\item Worked on a real-time collaborative 3D platform enabling simultaneous multi-user interaction with shared virtual objects.
+			\item Engineered backend systems with SQL databases to manage shared sessions and maintain object consistency under high concurrency.
+			\item Optimized frontend performance in React for complex interactive scenes.
+		\end{itemize}
+	}
+
 	\cventry{}{\href{https://yandex.com/company}{\textcolor{cyan!40!blue}{Yandex}}}{Developer Intern}{Mar 2021 - Sep 2021\vspace{0.0em}}{}{
-		% Detailed achievements:%
-		%\begin{itemize}
-		Worked on internal backend systems for preparing and validating \textbf{large-scale datasets for LLM training and recommendation models}. Maintained and optimized C++ and Python data pipelines for daily ingestion and preprocessing of high-volume commercial data. Designed SQL-based feature extraction workflows and built automated tests that improved data quality and pipeline reliability.
+		\begin{itemize}
+			\item Maintained and optimized high-volume data ingestion pipelines using C++ and Python for large-scale LLM training datasets.
+			\item Designed SQL-based feature extraction workflows and automated testing to improve data quality and pipeline reliability.
+		\end{itemize}
 	}
 	
 	\section{Projects}
 
-	\cventry{}{}{Simulation of photonic quantum computing}{2023\vspace{-1.0em}}{}{
-		Developed a web service dedicated to simulation of linear and non-linear optics for quantum computational models using \textbf{Python and Django}, enabling interactive experimentation with optical circuits. Used \href{https://strawberryfields.ai/}{\textcolor{blue}{Strawberry fields}} as an underlying engine. (\href{https://github.com/StudioShader/SF_Composer}{\textcolor{blue}{github}})
+	\cventry{}{}{SF Composer}{2023\vspace{-1.0em}}{}{
+		Developed a Django-based web platform for the simulation of linear and nonlinear optics in quantum computational models, with a PostgreSQL backend and interactive experiment workflows. Used Strawberry Fields as the underlying engine. 
+		(\href{https://github.com/StudioShader/SF_Composer}{\textcolor{blue}{github}})
 	}
-	\cventry{}{}{Master's Thesis}{2023-2025\vspace{-1.0em}}{}{
-		Investigated a photonic-based model to implement a topological quantum memory experiment. Explored error models and \textbf{performed threshold estimations} using matching-based decoders on FBQC codes. Demonstrated how logical qubits can be reliably stored by repeatedly fusing resource states, enabling a scalable approach to fault-tolerant quantum memory.
+
+	\cventry{}{}{Vacanter}{2019\vspace{-1.0em}}{}{
+		Developed backend and database systems for a mobile job-matching application using PostgreSQL and Python, focusing on transactional integrity and real-time updates.
+		\href{https://github.com/AndreyYurko/hhTinder}{(\textcolor{blue}{github})} 
 	}
-	% \cventry{}{}{Undergraduate Thesis}{2022-2023\vspace{-1.0em}}{}{
-	% 	I did research on optimal schemes of entangling transformations in linear quantum optics. I used a genetic algorithm and ran it on \textbf{GPUs with Pytorch}. New schemes were obtained for finding the maximum entangled state, as well as for implementing gates equivalent to CX in the KLM protocol.
-	% 	\href{https://github.com/StudioShader/galopy/blob/master/slides(eng).pdf}{\textcolor{blue}{Presentation}}.
-	% }
 
 	\section{Education}
+
 	\cventry{}{}{Bachelor of Science in Computer Science and Software Engineering}{Sep 2019 - Jul 2023}{\hspace*{-2.5 mm} Saint-Petersburg State University}{}
+
 	\cventry{}{}{Master of Science in Mathematics}{Sep 2022 - Nov 2025}{\hspace*{-2.5 mm} Pontifical Catholic University of Rio de Janeiro}{}
+
 	{}{}
 
 	\section{Technical Skills}
+
 	\begin{itemize}
-		\item \textbf{Core Languages:} C++, Python, C\#, TypeScript, SQL
-		\item \textbf{Scientific \& HPC:} CPython Extensions, Pybind, PyTorch, Qiskit
-		\item \textbf{Backend \& Web:} Django, React, Next.js, PostgreSQL, Redis, REST APIs
-		\item \textbf{Infrastructure \& Tools:} Git, Linux, Docker, CI/CD, Kubernetes, VPS Hosting
-		% \item \textbf{Other:} Unity3D, three.js
+		\item \textbf{Backend \& Databases:} PostgreSQL, SQL, Redis, Python, C++, C\#, Node.js, NestJS, Django, REST APIs
+		\item \textbf{Infrastructure \& DevOps:} Docker, Kubernetes, CI/CD, Linux, Git, monitoring (Prometheus, Grafana), VPS Hosting
+		\item \textbf{Frontend \& Web:} TypeScript, React, Next.js, CSS
 		\item \textbf{Languages:} Russian (Native), English (Fluent), Portuguese (Conversational), German (Beginner)
 	\end{itemize}
+
 \end{document}
