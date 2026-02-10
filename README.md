@@ -3,17 +3,17 @@
 $${\color{white}Welcome,\space my\space name\space is\space \color{lightblue}Ivan \space \color{blue} Ogloblin}$$
 
 <ul style="
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
   color:#ffffff;
   font-size:15px;
   line-height:1.6;
-  list-style-position: inside;
-  padding-left: 0;
-  margin-left: 0;
 ">
-  <li><strong>Middle Software Engineer</strong> with a strong entrepreneurial background and 5 years of experience.</li>
-  <li><strong>Former Founding Engineer</strong> of a profitable AI platform scaled to 200,000+ users.</li>
-  <li>Specialized in <strong>C++/Python integration</strong>, achieving 10,000× gains.</li>
-  <li>Proven ability to take systems from prototype to production.</li>
+  <li>• Middle Software Engineer with 5 years experience</li>
+  <li>• Former Founding Engineer (200k+ users)</li>
+  <li>• C++ / Python performance optimization</li>
+  <li>• Production-scale systems</li>
 </ul>
 
 <p style="font-size:14px; line-height:1.5;">
