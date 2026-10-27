@@ -24,8 +24,7 @@ $${\color{white}Welcome,\space my\space name\space is\space \color{lightblue}Iva
 
 
 <p style="font-size:14px; line-height:1.5;">
-<span style="color:#6f42c1;"><strong>📍 Location:</strong></span> Blaustein, Germany<br>
-<span style="color:#6f42c1;"><strong>🧠 Interests:</strong></span> AI, Quantum Computing, Game Development<br>
+<span style="color:#6f42c1;"><strong>📍 Location:</strong></span> Germany<br>
+<span style="color:#6f42c1;"><strong>🧠 Interests:</strong></span> Quantum Computing, Game Development, Software Engineering<br>
 <span style="color:#6f42c1;"><strong>💻 Core Languages:</strong></span> C++, Python, C#, TypeScript<br>
-<span style="color:#6f42c1;"><strong>💬 Telegram:</strong></span> @old_Cheech
 </p>
